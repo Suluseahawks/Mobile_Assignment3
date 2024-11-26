@@ -1,0 +1,29 @@
+name: mobile_app_assignment_3
+description: A food ordering app.
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.0+4   # Use the latest version
+  path: ^1.8.0       # Use the latest version
+  sqflite_common_ffi: ^2.0.0  # Required for non-web platforms (Android/iOS/etc.)
+  sqflite_common_ffi_web: ^0.4.5+4  # Required for web support
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Specify the Roboto font
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Italic.ttf
+        - asset: assets/fonts/Roboto-BoldItalic.ttf
